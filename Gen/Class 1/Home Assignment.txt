@@ -1,0 +1,13 @@
+Home Assignment:
+ 
+Explore these providers and models
+ 
+Google -Gemini 3
+ 
+Openai -Gpt 5.2
+ 
+claude -Opus 4.5
+ 
+Meta - Llama 3.3
+ 
+https://groq.com

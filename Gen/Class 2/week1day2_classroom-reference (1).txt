@@ -1,0 +1,99 @@
+*Agenda*
+*Week1Day2*
+Recap of Day1
+----What is LLM
+Large Language models
+Open AI -GPT4.x,5,Chatgpt
+Google ,Gemini3
+Antrophic,Claude sonnet /opus4.5
+Meta llama --maverick,scout
+LLM
+ ---Pretrained Models with Billions of parameters and records
+ ---Many neural Layers
+ GPT OSS 120B
+   ------Trained with 120 Billion Parameters data
+   ------96 Layers (GPT-3)
+   ------120 Layers (GPT-4)
+   More the layers more the accuracy
+
+ GPT --Generative Pretrained Transformer
+Hallucination-LLM Confidently generates teh incorrect/wrong output
+----Different ChatAgents (Chatgpt, qwen,deepseek)
+   ---Classroom Session
+----Challenges in Gen AI
+ -----Classroom Session 
+----Ollama training
+----CPU Vs GPU
+----Public vs Private LLM
+Private LLM --LLM Deployed Locally (ollama -https://ollama.com/download/windows)
+Public LLM --Cloud based --Open AI
+
+Hardware Aggregators/Service providers for multiple LLMs with rate limits
+groq
+Open router ai
+
+AWS(Feature -AWS Bedrock (LLM(Claude sonnet will bedeployed)))
+Azure openai
+----Different models with Parameters and Layers
+----Rate Limits and context window (Limit for input token)
+----LLM Anatomy
+1)Input Processing
+----Prompt to token conversation
+----token to vector embedding (numerical representation)
+
+Prompt to chatGPT-The cat sat on the 
+Prompt to tokens -- 5 tokens
+The[0.1] cat[0.3] sat[0.4] on[0.5] the[0.7] --Vector embedding (appx values)
+Semantic search (meaningful)
+refund policy ---refund policy ,reverse to account ,reversal
+
+--Internally the pretrained mat is the most preferable/used
+
+Model Architecture
+Transformers
+
+I went to bank to deposit  ---token
+Token to embedding --I[0.7] went[0.11] to[0.3] bank[0.5] to[0.6] deposit[0.9] 
+
+Bank --Financial instution
+Blood Bank
+River Bank 
+Milk Bank
+Seed bank
+Book Bank
+
+1) Self attention block
+Compares bank with each and every word ---Context relevance-Finance instution
+Gives score based on relevance
+2) Feed forward network (FFN)
+to move the output from self attention block to process between the layers(neural networks)
+
+Training Processing
+Pre Training
+Collecting data from mulitple resouces and we trained 
+ChatGPT--By default output generated from the pretrained model
+
+Fine tuned
+LLM to get ouptut as per the framework ?
+base model -gpt-4.0
+Training data set --(My framework specific code)
+Fine tuned model --ft--gpt-4.0
+
+Temperature
+0.0-2
+Inorder control teh randomness of the output
+----Temperature
+----Moderation with llama guard
+
+
+
+Links:
+=====
+https://openrouter.ai/
+https://groq.com/
+https://lmarena.ai/
+https://token-counter.app/meta/llama-2
+https://platform.openai.com/tokenizer
+https://token-counter.app/meta/llama-3
+https://ollama.com/
+https://console.groq.com/docs/rate-limits
